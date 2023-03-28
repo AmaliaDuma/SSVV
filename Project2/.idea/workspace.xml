@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5576680b-9739-4309-b646-b156cc835e88" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit3 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2MQT9TkLHaoty0hKsOfnRlumDzh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "D:/Faculty/Sem6/Software Systems Validation and Verification/Labs/Lab1/Project2/fisiere",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ssvv.repository" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Faculty\Sem6\Software Systems Validation and Verification\Labs\Lab1\Project2\fisiere" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Faculty\Sem6\Software Systems Validation and Verification\Labs\Lab1\Project2" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ssvv.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ServiceTest.testAddAssignmentDescriptionEmpty">
+    <configuration name="ServiceTest.testAddAssignmentDeadline15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ssvv.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ssvv.service" />
+      <option name="MAIN_CLASS_NAME" value="ssvv.service.ServiceTest" />
+      <option name="METHOD_NAME" value="testAddAssignmentDeadline15" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceTest.testAddAssignmentDescriptionEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ssvv.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ssvv.service" />
+      <option name="MAIN_CLASS_NAME" value="ssvv.service.ServiceTest" />
+      <option name="METHOD_NAME" value="testAddAssignmentDescriptionEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceTest.testAddAssignmentIdNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ssvv.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ssvv.service" />
+      <option name="MAIN_CLASS_NAME" value="ssvv.service.ServiceTest" />
+      <option name="METHOD_NAME" value="testAddAssignmentIdNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceTest.testAddAssignmentReceivingWeek0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ssvv.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ssvv.service" />
+      <option name="MAIN_CLASS_NAME" value="ssvv.service.ServiceTest" />
+      <option name="METHOD_NAME" value="testAddAssignmentReceivingWeek0" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceTest.testAddStudentGroupNegativeNo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ssvv.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ssvv.service" />
+      <option name="MAIN_CLASS_NAME" value="ssvv.service.ServiceTest" />
+      <option name="METHOD_NAME" value="testAddStudentGroupNegativeNo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ServiceTest.testAddAssignmentDescriptionEmpty" />
+        <item itemvalue="JUnit.ServiceTest.testAddAssignmentIdNull" />
+        <item itemvalue="JUnit.ServiceTest.testAddAssignmentReceivingWeek0" />
+        <item itemvalue="JUnit.ServiceTest.testAddAssignmentDeadline15" />
+        <item itemvalue="JUnit.ServiceTest.testAddStudentGroupNegativeNo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5576680b-9739-4309-b646-b156cc835e88" name="Changes" comment="" />
+      <created>1677698658229</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677698658229</updated>
+      <workItem from="1677698659547" duration="2164000" />
+      <workItem from="1677773412615" duration="3168000" />
+      <workItem from="1677788736139" duration="4334000" />
+      <workItem from="1677856453614" duration="1049000" />
+      <workItem from="1678132724113" duration="1636000" />
+      <workItem from="1678619768806" duration="125000" />
+      <workItem from="1678619913228" duration="1707000" />
+      <workItem from="1678860927863" duration="963000" />
+      <workItem from="1679263032141" duration="3550000" />
+      <workItem from="1679854669208" duration="612000" />
+      <workItem from="1679942201097" duration="1566000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Project2$ServiceTest_testAddAssignmentDescriptionEmpty.ic" NAME="ServiceTest.testAddAssignmentDescriptionEmpty Coverage Results" MODIFIED="1679943076312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ssvv.service.*</FILTER>
+    </SUITE>
+  </component>
+</project>
