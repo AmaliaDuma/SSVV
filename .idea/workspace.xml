@@ -59,7 +59,7 @@
     "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "show.migrate.to.gradle.popup": "false",
     "vue.rearranger.settings.migration": "true"
   }
@@ -188,7 +188,7 @@
       <workItem from="1679854669208" duration="612000" />
       <workItem from="1679942201097" duration="1566000" />
       <workItem from="1680010569971" duration="1200000" />
-      <workItem from="1680011899995" duration="1027000" />
+      <workItem from="1680011899995" duration="1336000" />
     </task>
     <servers />
   </component>
