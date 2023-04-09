@@ -81,7 +81,7 @@
       <recent name="ssvv.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ServiceTestBBT">
+  <component name="RunManager" selected="Application.MainApplication">
     <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ssvv.MainApplication" />
       <module name="Project2" />
@@ -160,7 +160,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ServiceTestBBT" />
         <item itemvalue="Application.MainApplication" />
         <item itemvalue="JUnit.ServiceTest.testAddAssignmentDescriptionEmpty" />
         <item itemvalue="JUnit.ServiceTest.testAddAssignmentIdNull" />
@@ -190,7 +189,8 @@
       <workItem from="1680010569971" duration="1200000" />
       <workItem from="1680011899995" duration="3502000" />
       <workItem from="1680068924379" duration="238000" />
-      <workItem from="1681038119047" duration="3831000" />
+      <workItem from="1681038119047" duration="4729000" />
+      <workItem from="1681043835660" duration="23000" />
     </task>
     <servers />
   </component>
