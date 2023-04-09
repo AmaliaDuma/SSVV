@@ -27,8 +27,18 @@ public class ServiceTest {
     Service service = new Service(studentRepo, studentValidator, temaRepo, temaValidator, noteRepo, notaValidator);
 
 //    @Test
+//    public void testAddStudentIdUnique() {
+//        // Add successfully a student -> null will be returned - unique id
+//        Assertions.assertNull(service.addStudent(new Student("123", "Test", 205, "test@email.com")));
+//
+//        // Add already existing student -> student will be returned - duplicate id
+//        Assertions.assertEquals("123", service.addStudent(new Student("123", "Test", 205, "test@email.com")).getID());
+//        Assertions.assertNotNull(service.deleteStudent("123").getID());
+//    }
+//
+//    @Test
 //    public void testAddStudentIdNull() {
-//        // Add a student with a null id -> validation exception is thrown
+//        // Add a student with a null id - validation exception is thrown
 //        Assertions.assertThrows(ValidationException.class, () -> {
 //            service.addStudent(new Student(null, "Test", 205, "test@email.com"));
 //        });
@@ -36,7 +46,7 @@ public class ServiceTest {
 //
 //    @Test
 //    public void testAddStudentIdEmpty() {
-//        // Add a student with an empty id -> validation exception is thrown
+//        // Add a student with an empty id - validation exception is thrown
 //        Assertions.assertThrows(ValidationException.class, () -> {
 //            service.addStudent(new Student("", "Test", 205, "test@email.com"));
 //        });
@@ -44,7 +54,7 @@ public class ServiceTest {
 //
 //    @Test
 //    public void testAddStudentNameNull() {
-//        // Add a student with a null name -> validation exception is thrown
+//        // Add a student with an empty name - validation exception is thrown
 //        Assertions.assertThrows(ValidationException.class, () -> {
 //            service.addStudent(new Student("123", null, 205, "test@email.com"));
 //        });
@@ -52,7 +62,7 @@ public class ServiceTest {
 //
 //    @Test
 //    public void testAddStudentNameEmpty() {
-//        // Add a student with an empty name -> validation exception is thrown
+//        // Add a student with an empty name - validation exception is thrown
 //        Assertions.assertThrows(ValidationException.class, () -> {
 //            service.addStudent(new Student("123", "", 205, "test@email.com"));
 //        });
@@ -93,6 +103,16 @@ public class ServiceTest {
     // Lab 3
 
     @Test
+    public void  testAddAssignmentIdUnique() {
+        // Add successfully an assignment -> null will be returned - unique id
+        Assertions.assertNull(service.addTema(new Tema("A5", "Description", 6, 4)));
+
+        // Add already existing assignment -> assignment will be returned - duplicate id
+        Assertions.assertEquals("A5", service.addTema(new Tema("A5", "Description", 6, 4)).getID());
+        Assertions.assertNotNull(service.deleteTema("A5").getID());
+    }
+
+    @Test
     public void testAddAssignmentIdNull() {
         Assertions.assertThrows(ValidationException.class, () -> {
             service.addTema(new Tema(null, "Descrption1", 8, 6));
@@ -106,17 +126,17 @@ public class ServiceTest {
         });
     }
 
-//    @Test
-//    public void testAddAssignmentDeadline15() {
-//        Assertions.assertThrows(ValidationException.class, () -> {
-//            service.addTema(new Tema("A1", "Descrption1", 15, 5));
-//        });
-//    }
-//
-//    @Test
-//    public void testAddAssignmentReceivingWeek0() {
-//        Assertions.assertThrows(ValidationException.class, () -> {
-//            service.addTema(new Tema("A1", "Descrption1", 7, 0));
-//        });
-//    }
+    @Test
+    public void testAddAssignmentDeadline15() {
+        Assertions.assertThrows(ValidationException.class, () -> {
+            service.addTema(new Tema("A1", "Descrption1", 15, 5));
+        });
+    }
+
+    @Test
+    public void testAddAssignmentReceivingWeek0() {
+        Assertions.assertThrows(ValidationException.class, () -> {
+            service.addTema(new Tema("A1", "Descrption1", 7, 0));
+        });
+    }
 }
