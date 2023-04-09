@@ -120,6 +120,13 @@ public class ServiceTest {
     }
 
     @Test
+    public void testAddAssignmentDescriptionNull() {
+        Assertions.assertThrows(ValidationException.class, () -> {
+            service.addTema(new Tema("A1", null, 8, 6));
+        });
+    }
+
+    @Test
     public void testAddAssignmentDescriptionEmpty() {
         Assertions.assertThrows(ValidationException.class, () -> {
             service.addTema(new Tema("A1", "", 8, 6));
