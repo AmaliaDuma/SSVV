@@ -14,8 +14,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit3 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,7 +56,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
@@ -81,7 +81,7 @@
       <recent name="ssvv.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainApplication">
+  <component name="RunManager" selected="JUnit.BigBangTest">
     <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ssvv.MainApplication" />
       <module name="Project2" />
@@ -95,16 +95,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BigBangTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Project2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ssvv.service.ServiceTest" />
+          <option name="PATTERN" value="ssvv.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ssvv.service" />
-      <option name="MAIN_CLASS_NAME" value="ssvv.service.ServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="ssvv.service.BigBangTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,6 +160,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BigBangTest" />
         <item itemvalue="Application.MainApplication" />
         <item itemvalue="JUnit.ServiceTest.testAddAssignmentDescriptionEmpty" />
         <item itemvalue="JUnit.ServiceTest.testAddAssignmentIdNull" />
@@ -191,6 +192,9 @@
       <workItem from="1680068924379" duration="238000" />
       <workItem from="1681038119047" duration="4729000" />
       <workItem from="1681043835660" duration="23000" />
+      <workItem from="1681044066729" duration="33000" />
+      <workItem from="1681072290864" duration="152000" />
+      <workItem from="1681144282390" duration="548000" />
     </task>
     <servers />
   </component>
