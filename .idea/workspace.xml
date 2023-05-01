@@ -81,20 +81,7 @@
       <recent name="ssvv.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BigBangTest">
-    <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ssvv.MainApplication" />
-      <module name="Project2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ssvv.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.IncrementalIntegrationTest.saveGrade">
     <configuration name="BigBangTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Project2" />
       <extension name="coverage">
@@ -110,61 +97,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServiceTest.testAddAssignmentDescriptionEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IncrementalIntegrationTest.saveAssignment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Project2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ssvv.service.ServiceTest" />
+          <option name="PATTERN" value="ssvv.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ssvv.service" />
-      <option name="MAIN_CLASS_NAME" value="ssvv.service.ServiceTest" />
-      <option name="METHOD_NAME" value="testAddAssignmentDescriptionEmpty" />
+      <option name="MAIN_CLASS_NAME" value="ssvv.service.IncrementalIntegrationTest" />
+      <option name="METHOD_NAME" value="saveAssignment" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServiceTest.testAddAssignmentIdNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IncrementalIntegrationTest.saveGrade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Project2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ssvv.service.ServiceTest" />
+          <option name="PATTERN" value="ssvv.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ssvv.service" />
-      <option name="MAIN_CLASS_NAME" value="ssvv.service.ServiceTest" />
-      <option name="METHOD_NAME" value="testAddAssignmentIdNull" />
+      <option name="MAIN_CLASS_NAME" value="ssvv.service.IncrementalIntegrationTest" />
+      <option name="METHOD_NAME" value="saveGrade" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServiceTest.testAddAssignmentReceivingWeek0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IncrementalIntegrationTest.saveStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Project2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ssvv.service.ServiceTest" />
+          <option name="PATTERN" value="ssvv.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ssvv.service" />
+      <option name="MAIN_CLASS_NAME" value="ssvv.service.IncrementalIntegrationTest" />
+      <option name="METHOD_NAME" value="saveStudent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ssvv.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ssvv.service" />
       <option name="MAIN_CLASS_NAME" value="ssvv.service.ServiceTest" />
-      <option name="METHOD_NAME" value="testAddAssignmentReceivingWeek0" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IncrementalIntegrationTest.saveGrade" />
+        <item itemvalue="JUnit.IncrementalIntegrationTest.saveAssignment" />
+        <item itemvalue="JUnit.IncrementalIntegrationTest.saveStudent" />
         <item itemvalue="JUnit.BigBangTest" />
-        <item itemvalue="Application.MainApplication" />
-        <item itemvalue="JUnit.ServiceTest.testAddAssignmentDescriptionEmpty" />
-        <item itemvalue="JUnit.ServiceTest.testAddAssignmentIdNull" />
-        <item itemvalue="JUnit.ServiceTest.testAddAssignmentReceivingWeek0" />
+        <item itemvalue="JUnit.ServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +196,9 @@
       <workItem from="1681043835660" duration="23000" />
       <workItem from="1681044066729" duration="33000" />
       <workItem from="1681072290864" duration="152000" />
-      <workItem from="1681144282390" duration="548000" />
+      <workItem from="1681144282390" duration="1233000" />
+      <workItem from="1681276117879" duration="551000" />
+      <workItem from="1682934556642" duration="3279000" />
     </task>
     <servers />
   </component>
